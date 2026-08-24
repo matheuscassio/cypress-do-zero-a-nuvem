@@ -5,12 +5,12 @@
   "main": "src/index.html",
   "scripts": {
   "cy:open": "cypress open",
-  "test": "cypress run"
+  "test": "cypress run",
+    "test:cloud": "cypress run --record"
 },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wlsf82/cypress-do-zero-a-nuvem.git",
-    "test:cloud": "cypress run --record"
+    "url": "git+https://github.com/wlsf82/cypress-do-zero-a-nuvem.git"
   },
   "keywords": [
     "Testing",
