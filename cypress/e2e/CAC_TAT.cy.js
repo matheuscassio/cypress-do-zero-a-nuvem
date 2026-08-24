@@ -169,7 +169,7 @@ it.only('acessa a política de privacidade removendo target e entaão clica no l
 cy.contains('a','Política de Privacidade') //
 .invoke('removeAttr', 'target') // Remove o atributo 'target' do link.
 .click()// Clica no link da política de privacidade, agora que ele não abrirá em uma nova aba.
-cy.contains('h1', 'CAC TAT - Política de privacidade') // Verifica se a página carregada contém o título 'CAC TAT - Política de privacidade'.
+cy.contains('h1', 'CAC TAT - Política de Privacidade') // Verifica se a página carregada contém o título 'CAC TAT - Política de privacidade'.
 
 })
 
