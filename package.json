@@ -9,7 +9,8 @@
 },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wlsf82/cypress-do-zero-a-nuvem.git"
+    "url": "git+https://github.com/wlsf82/cypress-do-zero-a-nuvem.git",
+    "test:cloud": "cypress run --record"
   },
   "keywords": [
     "Testing",
